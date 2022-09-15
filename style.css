@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+.nav,
+.article,
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 0px 30px 10px;
+}
+.header,
+.footer {
+  background-color: chartreuse;
+  width: 100%;
+  height: 10%;
+  padding: 10px 0px 30px 10px;
+}
+.nav,
+.sidebar {
+  background-color: bisque;
+  width: 10%;
+  height: 80%;
+}
+.article {
+  background-color: white;
+  width: 79.6%;
+  height: 80%;
+}
